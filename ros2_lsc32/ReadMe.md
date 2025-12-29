@@ -1,11 +1,11 @@
-run theNode
+# run theNode
 
 // ros2 run your_package lsc32_controller --ros-args -p port:=/dev/ttyTHS1 -p baudrate:=115200
 
 ros2 run arm_test lsc32_test_1 --ros-args -p port:=/dev/ttyUSB0 -p baudrate:=115200
 
 
-Send a commend
+# Send a commend
 
 ros2 topic pub /lsc32_cmd std_msgs/UInt16MultiArray "{data: [1, 500, 2, 600, 1000]}"
 
@@ -19,7 +19,7 @@ Call the service:
 ros2 service call /move_servos your_package/srv/MultiServo \
 "{ids: [1, 2], positions: [500, 600], time_ms: 1500}"
 
-Run the YAML Client
+# Run the YAML Client
 
 ros2 run your_package lsc32_yaml_service_client /path/to/servo_sequence.yaml
 
