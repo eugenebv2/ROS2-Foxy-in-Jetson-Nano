@@ -6,5 +6,7 @@ test ROS2 Control need
 
 sudo apt install ros-foxy-ros2-control ros-foxy-ros2-controllers ros-foxy-gazebo-ros2-control
 
+sudo apt install ros-foxy-twist*
+
 # Using dicker exec ROS2 humble
 
