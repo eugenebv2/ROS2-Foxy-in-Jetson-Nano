@@ -1,3 +1,6 @@
+# This code was generate by AI Copilot
+
+
 # run theNode
 
 // ros2 run your_package lsc32_controller --ros-args -p port:=/dev/ttyTHS1 -p baudrate:=115200
