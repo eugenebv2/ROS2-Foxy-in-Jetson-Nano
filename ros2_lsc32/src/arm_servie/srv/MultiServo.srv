@@ -1,0 +1,13 @@
+# Request
+int32 id
+int32 position
+int32 time_ms
+int32[] ids
+int32[] positions
+
+---
+# Result
+bool success
+string message
+
+
